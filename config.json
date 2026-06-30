@@ -8,14 +8,13 @@
     "text": "Fabien Chatelier - ARB NA"
   },
   "text": {
-    "more": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.\nLes données proviennent de la base de données ENCORE. Le traitement des données à été effectué sur RSTUDIO. Le réseau a été réalisé sur GEPHI. La spacialisation est ForceAtlas2.",
-    "intro": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.",
-    "title": "Réseau de dépendance et de pression à la biodiversité pour le secteur du bois"
+    "more": "Ce graphe représente le réseau trophique des espèces animales de Nouvelle-Aquitaine. Les données d'espèces animales proviennent de l'observatoire Fauna (https://observatoire-fauna.fr/), les données d'interaction proviennent de Global Biotic Interaction (https://www.globalbioticinteractions.org/). Les données ont été traitées sur RStudio (https://rstudio-desktop.fr.download.it/), et visualisé sur GEPHI (https://gephi.org/)",
+    "title": "Réseau trophique des espèces animales de Nouvelle-Aquitaine"
   },
   "legend": {
-    "edgeLabel": "Place dans la chaîne de valeur, dépendances et pressions",
-    "colorLabel": "Voir_légende",
-    "nodeLabel": "Activité, dépendances et pressions "
+    "edgeLabel": "S'en prend à : jaune pâle (#EEE8AA); Intéragit avec : gris (#707070)  ; Mange : bleu ciel clair (#A4D3EE) ; A un hôte : violet pâle-rouge (#FF82AB) ; Parasitoïde de : brun rosé (#8B6969) ; Agent pathogène de : rouge orchidée moyen (#E066FF) ; Habitat : blanc (#FFFFFF)",
+    "colorLabel": "Gradient de rouge, allant du faible au plus fort : Notable (#fef0d9); Modéré (#fdcc8a) ; Fort (#fc8d59) ; Très fort (#e34a33) ; Majeur (#b30000), Habitat : bleu (#0000FF)",
+    "nodeLabel": "Espèces animales de Nouvelle-Aquitaine"
   },
   "features": {
     "search": true,
@@ -28,7 +27,7 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "straight",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
@@ -40,8 +39,8 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 1.7,
+      "minEdgeSize": 0.7,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
