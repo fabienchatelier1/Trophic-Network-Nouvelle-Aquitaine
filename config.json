@@ -1,0 +1,52 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Fabien Chatelier - ARB NA"
+  },
+  "text": {
+    "more": "Ce graphe représente le réseau trophique des espèces animales de Nouvelle-Aquitaine. Les données d'espèces animales proviennent de l'observatoire Fauna (https://observatoire-fauna.fr/), les données d'interaction proviennent de Global Biotic Interaction (https://www.globalbioticinteractions.org/). Les données ont été traitées sur RStudio (https://rstudio-desktop.fr.download.it/), et visualisé sur GEPHI (https://gephi.org/)",
+    "title": "Réseau trophique des espèces animales de Nouvelle-Aquitaine"
+  },
+  "legend": {
+    "edgeLabel": "S'en prend à : jaune pâle (#EEE8AA); Intéragit avec : gris (#707070)  ; Mange : bleu ciel clair (#A4D3EE) ; A un hôte : violet pâle-rouge (#FF82AB) ; Parasitoïde de : brun rosé (#8B6969) ; Agent pathogène de : rouge orchidée moyen (#E066FF) ; Habitat : blanc (#FFFFFF)",
+    "colorLabel": "gradient de rouge, allant du faible au plus fort : Notable (#fef0d9); Modéré (#fdcc8a) ; Fort (#fc8d59) ; Très fort (#e34a33) ; Majeur (#b30000), Habitat : bleu (#0000FF)"
+    "nodeLabel": "Espèces animales de Nouvelle-Aquitaine"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
