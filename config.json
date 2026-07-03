@@ -12,8 +12,8 @@
     "title": "Réseau trophique des espèces animales de Nouvelle-Aquitaine"
   },
   "legend": {
-    "edgeLabel": "S'en prend à : rouge (#e41a1c); Intéragit avec : bleu (#377eb8) ; Mange : vert (#4daf4a) ; A un hôte : violet (#984ea3) ; Parasitoïde de : orange (#ff7f00) ; Agent pathogène de : jaune (#ffff33) ; Habitat : blanc (#FFFFFF)",
-    "colorLabel": "Gradient de rouge, allant du faible au plus fort : Notable (#fef0d9); Modéré (#fdcc8a) ; Fort (#fc8d59) ; Très fort (#e34a33) ; Majeur (#b30000), Habitat : bleu (#0000FF)",
+    "edgeLabel": "Type d'intéractions entre espèces: S'en prend à : rouge (#e41a1c); Intéragit avec : bleu (#377eb8) ; Mange : vert (#4daf4a) ; A un hôte : violet (#984ea3) ; Parasitoïde de : orange (#ff7f00) ; Agent pathogène de : jaune (#ffff33) ; Habitat : blanc (#FFFFFF)",
+    "colorLabel": "Enjeu régional de conservation : Gradient de rouge, allant du faible au plus fort : Notable (#fef0d9); Modéré (#fdcc8a) ; Fort (#fc8d59) ; Très fort (#e34a33) ; Majeur (#b30000), Habitat : bleu (#0000FF)",
     "nodeLabel": "Espèces animales de Nouvelle-Aquitaine"
   },
   "features": {
