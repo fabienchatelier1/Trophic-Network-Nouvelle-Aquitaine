@@ -12,7 +12,7 @@
     "title": "Réseau trophique des espèces animales de Nouvelle-Aquitaine"
   },
   "legend": {
-    "edgeLabel": "S'en prend à : jaune pâle (#EEE8AA); Intéragit avec : gris (#707070)  ; Mange : bleu ciel clair (#A4D3EE) ; A un hôte : violet pâle-rouge (#FF82AB) ; Parasitoïde de : brun rosé (#8B6969) ; Agent pathogène de : rouge orchidée moyen (#E066FF) ; Habitat : blanc (#FFFFFF)",
+    "edgeLabel": "S'en prend à : rouge (#e41a1c); Intéragit avec : bleu (#377eb8) ; Mange : vert (#4daf4a) ; A un hôte : violet (#984ea3) ; Parasitoïde de : orange (#ff7f00) ; Agent pathogène de : jaune (#ffff33) ; Habitat : blanc (#FFFFFF)",
     "colorLabel": "Gradient de rouge, allant du faible au plus fort : Notable (#fef0d9); Modéré (#fdcc8a) ; Fort (#fc8d59) ; Très fort (#e34a33) ; Majeur (#b30000), Habitat : bleu (#0000FF)",
     "nodeLabel": "Espèces animales de Nouvelle-Aquitaine"
   },
