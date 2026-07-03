@@ -8,7 +8,7 @@
     "text": "Fabien Chatelier - ARB NA"
   },
   "text": {
-    "more": "Ce graphe représente le réseau trophique des espèces animales de Nouvelle-Aquitaine. Les données d'espèces animales proviennent de l'observatoire Fauna (https://observatoire-fauna.fr/), les données d'interaction proviennent de Global Biotic Interaction (https://www.globalbioticinteractions.org/). Les données ont été traitées sur RStudio (https://rstudio-desktop.fr.download.it/), et visualisé sur GEPHI (https://gephi.org/)",
+    "more": "Ce graphe représente le réseau trophique des espèces animales de Nouvelle-Aquitaine. Les données d'espèces animales proviennent de l'observatoire Fauna (https://observatoire-fauna.fr/), les données d'interaction proviennent de Global Biotic Interaction (https://www.globalbioticinteractions.org/). Les données ont été traitées sur RStudio (https://rstudio-desktop.fr.download.it/), et spatialisées sur GEPHI (https://gephi.org/)",
     "title": "Réseau trophique des espèces animales de Nouvelle-Aquitaine"
   },
   "legend": {
