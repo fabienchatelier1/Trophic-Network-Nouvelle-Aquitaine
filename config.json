@@ -27,7 +27,7 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curved",
+      "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
